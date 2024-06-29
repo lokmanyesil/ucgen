@@ -1,7 +1,7 @@
 <?php
-function printPatternMixed($rows) {
+function ucgen($sayi) {
     $i = 1;
-    while ($i <= $rows) {
+    while ($i <= $sayi) {
         for ($j = 1; $j <= $i; $j++) {
             echo "0";
         }
@@ -10,5 +10,5 @@ function printPatternMixed($rows) {
     }
 }
 
-printPatternMixed(5);
+ucgen(15);
 
